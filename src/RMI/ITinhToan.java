@@ -14,4 +14,6 @@ import java.rmi.Remote;
 public interface ITinhToan extends Remote{
     public int Tong(int a,int b) throws Exception;
     public int Nhan(int a,int b) throws Exception;
+    public int Hieu(int a,int b) throws Exception;
+    public float Chia(int a,int b) throws Exception;
 }
